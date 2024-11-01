@@ -1,8 +1,10 @@
-
+import Hero from "./components/Hero"
 function App() {
   return (
     <>
-      <h2 className="text-3xl text-purple-700">Hello world</h2>
+    <div className="w-full max-w-[1440px] mx-auto bg-orange-quaternary relative">
+    <Hero/>
+    </div>
     </>
   )
 }
