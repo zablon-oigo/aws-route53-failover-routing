@@ -25,8 +25,8 @@ export default function HeroSlider() {
                                 {buttonText}
                             </button>
                         </div>
-                        <div className="flex-1">
-                            <img src={image.type} alt="" className="" />
+                        <div className="flex justify-center flex-1">
+                            <img src={image.type} alt="" className="h-96 lg:h-auto" />
                         </div>
                     </div>
                 </div>
