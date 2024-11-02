@@ -18,10 +18,10 @@ export default function HeroSlider() {
                             <h1 className="">
                                 {title}
                             </h1>
-                            <p className="">
+                            <p className="text-base lg:text-[18px] lg:leading-8 max-w-[540px] mb-8 ">
                                 {subtitle}
                             </p>
-                            <button className="">
+                            <button className="mb-8 btn lg:mb-0">
                                 {buttonText}
                             </button>
                         </div>
