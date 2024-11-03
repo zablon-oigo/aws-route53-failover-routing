@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import Program from './Program';
 export default function Header() {
     const[bg,setBg]=useState(false);
-    const[NavMobile,SetNavMobile]=useState(false)
+    const[NavMobile,SetNavMobile]=useState(true)
     useEffect(()=>{
         window.addEventListener('scroll', ()=>{
             window.scrollY > 50 ? setBg(true):setBg(false);
@@ -25,7 +25,7 @@ export default function Header() {
                 <div className="cursor-pointer lg:hidden">
                     <CgMenuRight className='text-3xl text-right'/>
                 </div>
-                <div className={`${navMobile?'h-[260px]':''}`}>
+                <div className={`${navMobile?'h-[260px]':''} fixed bg-yellow shadow-lg left-0 w-full top-[78px] h-full overflow-hidden transition-all`}>
                     <NavMobile/>
                 </div>
                </div>
