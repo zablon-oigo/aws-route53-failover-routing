@@ -15,7 +15,7 @@ export default function HeroSlider() {
                 <div className="container mx-auto text-center lg:text-left">
                     <div className="">
                         <div className="flex-1">
-                            <h1 className="text-blue text-[36px] leading-tigh lg:text-[72px] lg:leading-[98px] ">
+                            <h1 className="text-blue text-[36px] leading-tigh lg:text-[72px] lg:leading-[98px] font-extrabold mb-4 ">
                                 {title}
                             </h1>
                             <p className="text-base lg:text-[18px] lg:leading-8 max-w-[540px] mb-8 ">
