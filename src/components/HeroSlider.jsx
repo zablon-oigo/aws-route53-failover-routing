@@ -8,7 +8,7 @@ import {Pagination, Navigation, Autoplay} from 'swiper/modules';
 import {heroSlider} from '../data'
 export default function HeroSlider() {
   return (
-    <Swiper modules={[Pagination,Navigation,Autoplay]} autoplay={true} loop={true} pagination={{clickable:true,dynamicBullets:true,}}>
+    <Swiper modules={[Pagination,Navigation,Autoplay]} autoplay={true} loop={true} pagination={{clickable:true,dynamicBullets:true,}} navigation={true} className="heroSlider">
         {heroSlider.map((slide,index)=>{
             const {title, subtitle, image, buttonText}=slide;
             return <SwiperSlide key={index} className="py-12 lg:py-16">
