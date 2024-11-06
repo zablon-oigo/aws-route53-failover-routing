@@ -22,10 +22,10 @@ export default function Header() {
                     <Nav/>
                 </div>
                 <Program/>
-                <div className="cursor-pointer lg:hidden">
+                <div onClick={()=>SetNavMobile(!NavMobile)} className="cursor-pointer lg:hidden">
                     <CgMenuRight className='text-3xl text-right'/>
                 </div>
-                <div className={`${navMobile?'h-[260px]':''} fixed bg-yellow shadow-lg left-0 w-full top-[78px] h-full overflow-hidden transition-all`}>
+                <div className={`${NavMobile?'h-[260px]':''} fixed bg-yellow shadow-lg left-0 w-full top-[78px] h-full overflow-hidden transition-all`}>
                     <NavMobile/>
                 </div>
                </div>
