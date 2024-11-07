@@ -9,7 +9,7 @@ export default function Program() {
                     Opening Hours: Mon - Sun: 10am - 6pm
                   </p>
                   <p className="text-right lg:hidden">
-                    Opening Hours: Mon - Sun: 10am - 6pm
+                    Mon - Sun: 10am - 6pm
                   </p>
                 </div>
     </div>
