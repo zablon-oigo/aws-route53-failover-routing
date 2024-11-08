@@ -7,7 +7,7 @@ export default function Nav() {
         {navigation.map((item, index) => {
           return (
             <li key={index}>
-              <a href={item.href} className="">{item.name}</a> 
+              <a href={item.href} className="capitalize transition hover:text-orange ">{item.name}</a> 
             </li>
           );
         })}
