@@ -3,7 +3,7 @@ import { navigation } from '../Data';
 export default function Nav() {
   return (
     <nav>
-      <ul>
+      <ul className='flex gap-6'>
         {navigation.map((item, index) => {
           return (
             <li key={index}>
