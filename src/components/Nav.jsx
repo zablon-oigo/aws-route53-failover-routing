@@ -2,8 +2,8 @@ import { navigation } from '../Data';
 
 export default function Nav() {
   return (
-    <nav>
-      <ul className='flex gap-6'>
+    <nav className='text-[15px]'>
+      <ul className='flex gap-x-10'>
         {navigation.map((item, index) => {
           return (
             <li key={index}>
