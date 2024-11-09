@@ -13,7 +13,7 @@ export default function Appointment() {
               <input type="text" className="input-control" placeholder='Full Name' />
               <input type="text" className="input-control" placeholder='Email' />
               <input type="text" className="input-control" placeholder='Phone Number'/>
-              <button type="submit" className="">Send</button>
+              <button type="submit" className="btn w-full max-w-[514px]">Send</button>
             </form>
            </div>
     </div>
