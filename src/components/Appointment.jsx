@@ -10,9 +10,10 @@ export default function Appointment() {
               <h2 className="">
                 Get an appointment
               </h2>
-              <input type="text" className="input-control" />
-              <input type="text" className="input-control" />
-              <input type="text" className="input-control" />
+              <input type="text" className="input-control" placeholder='Full Name' />
+              <input type="text" className="input-control" placeholder='Email' />
+              <input type="text" className="input-control" placeholder='Phone Number'/>
+              <button type="submit" className="">Send</button>
             </form>
            </div>
     </div>
