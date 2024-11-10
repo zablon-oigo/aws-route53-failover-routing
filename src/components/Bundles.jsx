@@ -14,7 +14,7 @@ export default function Bundles({bundles}) {
                             {name}
                         </p>
                     </div>
-                    <div className="flex">
+                    <div className="flex flex-col gap-y-4 max-w-[230px] mx-auto  ">
                         {list.map((item,index)=>{
                             return(
                                 <div className="" key={index}>
