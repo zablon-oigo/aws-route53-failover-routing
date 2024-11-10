@@ -2,6 +2,7 @@ import Hero from "./components/Hero"
 import Header from './components/Header'
 import Appointment from "./components/Appointment"
 import Prices from "./components/Prices"
+import Contact from "./components/Contact"
 function App() {
   return (
     <>
@@ -10,9 +11,7 @@ function App() {
     <Hero/>
     <Appointment/>
     <Prices/>
-    <div className="h-[2000px]">
-      
-    </div>
+    <Contact/>
     </div>
     </>
   )
