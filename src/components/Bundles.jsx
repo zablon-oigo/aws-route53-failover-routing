@@ -17,9 +17,9 @@ export default function Bundles({bundles}) {
                     <div className="flex flex-col gap-y-4 max-w-[230px] mx-auto  ">
                         {list.map((item,index)=>{
                             return(
-                                <div className="" key={index}>
-                                    <BsCheckCircleFill className="text-orange"/>
-                                    <div className="">
+                                <div className="flex item-center gap-x-3 " key={index}>
+                                    <BsCheckCircleFill className="text-xl text-orange"/>
+                                    <div className="capitalize">
                                         {item}
                                     </div>
                                 </div>

@@ -8,6 +8,12 @@ export default function Prices() {
   useEffect(()=>{
     setBundles(bundleData[0].services)
   }, [])
+  const getBundle=(name)=>{
+    const newBundle=bundleData.find((bundle)=>{
+      return bundle.name == name;
+    });
+    setBundles(newBundle.services)
+  }
   return (
     <section className="py-12 lg:py-24">
       <div className="container mx-auto">
@@ -22,7 +28,7 @@ export default function Prices() {
             const { name, image, dogCategory } = item;
             
             return (
-              <div key={idx} onClick={()=>setIndex(idx)} className="text-center cursor-pointer">
+              <div key={idx} onClick={()=>{setIndex(idx);getBundle(name)}} className="text-center cursor-pointer">
                 <div className="mb-2 transition-all duration-300 lg:mb-8 hover:scale-105">
                   <img src={image.type} alt={`Image for ${name}`} className="w-full" />
                 </div>
