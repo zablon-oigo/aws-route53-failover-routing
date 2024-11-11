@@ -6,3 +6,9 @@ In this setup, I deployed two instances across different Availability zones, als
 ### Architecture Diagram
 
 ![route53](https://github.com/user-attachments/assets/0e623df0-380c-4dc2-bc0e-5a35855aa291)
+
+**Steps I Took to Set This Up:**
+1. Created a Route 53 health check to monitor the primary endpoint.
+2. Configured AWS SNS notifications to get real-time email alerts.
+3. Set up Route 53 DNS records to enable automated failover.
+4. Created an A record for the secondary instance
