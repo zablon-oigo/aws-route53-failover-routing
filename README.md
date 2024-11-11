@@ -13,3 +13,5 @@ In this setup, I deployed two instances across different Availability zones, als
 2. Configured AWS SNS notifications to get real-time email alerts.
 3. Set up Route 53 DNS records to enable automated failover.
 4. Created an A record for the secondary instance
+
+### Demo
