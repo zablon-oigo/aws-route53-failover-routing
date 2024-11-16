@@ -14,4 +14,8 @@ In this setup, I deployed two instances across different Availability zones, als
 3. Set up Route 53 DNS records to enable automated failover.
 4. Created an A record for the secondary instance
 
+## Tech Stack
+
+**Client:** React, TailwindCSS
+
 ### Demo
