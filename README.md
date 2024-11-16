@@ -18,4 +18,30 @@ In this setup, I deployed two instances across different Availability zones, als
 
 **Client:** React, TailwindCSS
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/zablon-oigo/aws-route53-failover-routing.git
+```
+
+Go to the project directory
+
+```bash
+  cd aws-route53-failover-routing
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
 ### Demo
